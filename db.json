@@ -1,25 +1,23 @@
 {
-  "users": [],
-  "favorites": [
+  "users": [
     {
-      "movieId": 567189,
-      "userId": 2,
+      "email": "flavio@flavio.com",
+      "password": "$2a$10$17PwpsgYi5ePyYRpCJSzpudhwG4eP8DpmKW64pC6Rjw4KjGM4BOvS",
+      "name": "Flavio",
       "id": 1
     },
     {
-      "movieId": 578701,
-      "userId": 2,
+      "email": "pippo@pippo.com",
+      "password": "$2a$10$SUXInx8KUCp1i6Q24CYTBObMC8oXJBQlvncw5lqZZbju3x23Qm.dm",
+      "name": "Pippo",
       "id": 2
-    },
+    }
+  ],
+  "favorites": [
     {
-      "movieId": 567189,
-      "userId": 1,
+      "movieId": 632357,
+      "userId": 2,
       "id": 3
-    },
-    {
-      "movieId": 578701,
-      "userId": 1,
-      "id": 4
     }
   ],
   "genres": [
