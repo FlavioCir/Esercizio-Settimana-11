@@ -7,7 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AuthModule } from './auth/auth.module';
 import { HttpClientModule } from '@angular/common/http'
 import { AuthGuard } from './auth/auth.guard';
-import { ProfileComponent } from './profile/profile.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 
 const routes: Routes = [

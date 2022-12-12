@@ -19,10 +19,10 @@ import { AuthService } from 'src/app/auth/auth.service';
                         <label for="password" class="form-label text-white mb-3">Password</label>
                         <input name="password" type="password" class="form-control" id="password" required ngModel>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-4 mt-3" [disabled]="form.invalid">Login</button>
+                    <button type="submit" class="btn btn-danger mb-4 mt-3" [disabled]="form.invalid">Login</button>
                 </form>
                 <div class="text-white">
-                    <p>Non sei registrato? Registrati ora <a [routerLink]="['/register']"> clicca qui</a></p>
+                    <p>Non sei registrato? Registrati ora <a [routerLink]="['/register']" class="text-danger"> clicca qui</a></p>
                 </div>
             </div>
         </div>

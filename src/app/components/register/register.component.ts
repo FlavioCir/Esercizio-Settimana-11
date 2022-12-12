@@ -23,10 +23,10 @@ import { AuthService } from 'src/app/auth/auth.service';
                         <label for="password" class="form-label text-white mb-3">Password</label>
                         <input name="password" type="password" class="form-control" id="password" required ngModel>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-4 mt-3" [disabled]="form.invalid">Registrati</button>
+                    <button type="submit" class="btn btn-danger mb-4 mt-3" [disabled]="form.invalid">Registrati</button>
                 </form>
                 <div class="text-white">
-                    <p>Sei già registrato? Effettua il <a [routerLink]="['/login']">Login</a></p>
+                    <p>Sei già registrato? Effettua il <a [routerLink]="['/login']" class="text-danger">Login</a></p>
                 </div>
             </div>
         </div>
